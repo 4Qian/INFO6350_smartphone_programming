@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="300" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="FoodTableViewXib" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="377" height="301"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="377" height="301"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ice Cream" translatesAutoresizingMaskIntoConstraints="NO" id="5tO-2e-62W">
+                        <rect key="frame" x="5" y="5" width="367" height="261"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food Image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EW6-K5-xgI">
+                        <rect key="frame" x="5" y="271" width="367" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="bAD-UF-4Yo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EW6-K5-xgI" firstAttribute="top" secondItem="5tO-2e-62W" secondAttribute="bottom" constant="5" id="JaF-pU-39t"/>
+                    <constraint firstItem="5tO-2e-62W" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="RgD-0C-jz5"/>
+                    <constraint firstAttribute="trailing" secondItem="5tO-2e-62W" secondAttribute="trailing" constant="5" id="aSz-A3-pvQ"/>
+                    <constraint firstItem="EW6-K5-xgI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="fJ1-sF-QcC"/>
+                    <constraint firstAttribute="trailing" secondItem="EW6-K5-xgI" secondAttribute="trailing" constant="5" id="ltL-Mk-gfM"/>
+                    <constraint firstAttribute="bottom" secondItem="EW6-K5-xgI" secondAttribute="bottom" constant="5" id="wtv-PC-b4C"/>
+                    <constraint firstItem="5tO-2e-62W" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="zeS-HW-I34"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageContainer" destination="5tO-2e-62W" id="RIE-r2-zNQ"/>
+                <outlet property="lblImage" destination="EW6-K5-xgI" id="eGa-9d-0bL"/>
+            </connections>
+            <point key="canvasLocation" x="74.045801526717554" y="79.225352112676063"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Ice Cream" width="500" height="321.66665649414062"/>
+    </resources>
+</document>
