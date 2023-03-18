@@ -1,0 +1,6 @@
+framework module Pods_MidtermAPICall {
+  umbrella header "Pods-MidtermAPICall-umbrella.h"
+
+  export *
+  module * { export * }
+}
