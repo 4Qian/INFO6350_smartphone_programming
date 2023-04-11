@@ -7,76 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		547BEF6E29E4B52E00435907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BEF6D29E4B52E00435907 /* AppDelegate.swift */; };
-		547BEF7029E4B52E00435907 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BEF6F29E4B52E00435907 /* SceneDelegate.swift */; };
-		547BEF7229E4B52E00435907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BEF7129E4B52E00435907 /* ViewController.swift */; };
-		547BEF7529E4B52E00435907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547BEF7329E4B52E00435907 /* Main.storyboard */; };
-		547BEF7729E4B52F00435907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547BEF7629E4B52F00435907 /* Assets.xcassets */; };
-		547BEF7A29E4B52F00435907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547BEF7829E4B52F00435907 /* LaunchScreen.storyboard */; };
+		547BEF9029E5030D00435907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BEF8F29E5030D00435907 /* AppDelegate.swift */; };
+		547BEF9229E5030D00435907 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BEF9129E5030D00435907 /* SceneDelegate.swift */; };
+		547BEF9429E5030D00435907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BEF9329E5030D00435907 /* ViewController.swift */; };
+		547BEF9729E5030D00435907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547BEF9529E5030D00435907 /* Main.storyboard */; };
+		547BEF9929E5030E00435907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547BEF9829E5030E00435907 /* Assets.xcassets */; };
+		547BEF9C29E5030E00435907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547BEF9A29E5030E00435907 /* LaunchScreen.storyboard */; };
+		547BEFA429E506DC00435907 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 547BEFA329E506D900435907 /* GoogleService-Info.plist */; };
+		547BEFA729E51BA800435907 /* StringUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BEFA629E51BA800435907 /* StringUtilities.swift */; };
+		547BEFA929E51C4B00435907 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BEFA829E51C4B00435907 /* KeychainService.swift */; };
+		547BEFAE29E5240700435907 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BEFAD29E5240700435907 /* HomeViewController.swift */; };
+		547BEFB029E5253F00435907 /* AddPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BEFAF29E5253F00435907 /* AddPictureViewController.swift */; };
+		547BEFB229E5262600435907 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BEFB129E5262600435907 /* ProfileViewController.swift */; };
+		547BEFB429E5265100435907 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547BEFB329E5265100435907 /* SearchViewController.swift */; };
+		E9AB46FFBB4CAEBF3EFE2723 /* Pods_InstaPicture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92098E2A612E5244A98BAF57 /* Pods_InstaPicture.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		547BEF6A29E4B52E00435907 /* InstaPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		547BEF6D29E4B52E00435907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		547BEF6F29E4B52E00435907 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		547BEF7129E4B52E00435907 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		547BEF7429E4B52E00435907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		547BEF7629E4B52F00435907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		547BEF7929E4B52F00435907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		547BEF7B29E4B52F00435907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27407FA110582CC78A79A19C /* Pods-InstaPicture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPicture.release.xcconfig"; path = "Target Support Files/Pods-InstaPicture/Pods-InstaPicture.release.xcconfig"; sourceTree = "<group>"; };
+		547BEF8C29E5030D00435907 /* InstaPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		547BEF8F29E5030D00435907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		547BEF9129E5030D00435907 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		547BEF9329E5030D00435907 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		547BEF9629E5030D00435907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		547BEF9829E5030E00435907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547BEF9B29E5030E00435907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		547BEF9D29E5030E00435907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547BEFA329E506D900435907 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		547BEFA629E51BA800435907 /* StringUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilities.swift; sourceTree = "<group>"; };
+		547BEFA829E51C4B00435907 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		547BEFAD29E5240700435907 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		547BEFAF29E5253F00435907 /* AddPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPictureViewController.swift; sourceTree = "<group>"; };
+		547BEFB129E5262600435907 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		547BEFB329E5265100435907 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		92098E2A612E5244A98BAF57 /* Pods_InstaPicture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaPicture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5135DA26CC706B086432EFF /* Pods-InstaPicture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPicture.debug.xcconfig"; path = "Target Support Files/Pods-InstaPicture/Pods-InstaPicture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		547BEF6729E4B52D00435907 /* Frameworks */ = {
+		547BEF8929E5030D00435907 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9AB46FFBB4CAEBF3EFE2723 /* Pods_InstaPicture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		547BEF6129E4B52D00435907 = {
+		547BEF8329E5030D00435907 = {
 			isa = PBXGroup;
 			children = (
-				547BEF6C29E4B52E00435907 /* InstaPicture */,
-				547BEF6B29E4B52E00435907 /* Products */,
+				547BEF8E29E5030D00435907 /* InstaPicture */,
+				547BEF8D29E5030D00435907 /* Products */,
+				FC55623A2447F985AD8BD7E1 /* Pods */,
+				58425A70E17904345A76A6E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		547BEF6B29E4B52E00435907 /* Products */ = {
+		547BEF8D29E5030D00435907 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				547BEF6A29E4B52E00435907 /* InstaPicture.app */,
+				547BEF8C29E5030D00435907 /* InstaPicture.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		547BEF6C29E4B52E00435907 /* InstaPicture */ = {
+		547BEF8E29E5030D00435907 /* InstaPicture */ = {
 			isa = PBXGroup;
 			children = (
-				547BEF6D29E4B52E00435907 /* AppDelegate.swift */,
-				547BEF6F29E4B52E00435907 /* SceneDelegate.swift */,
-				547BEF7129E4B52E00435907 /* ViewController.swift */,
-				547BEF7329E4B52E00435907 /* Main.storyboard */,
-				547BEF7629E4B52F00435907 /* Assets.xcassets */,
-				547BEF7829E4B52F00435907 /* LaunchScreen.storyboard */,
-				547BEF7B29E4B52F00435907 /* Info.plist */,
+				547BEFAC29E51FC400435907 /* View */,
+				547BEFAB29E51FB000435907 /* Model */,
+				547BEFAA29E51D4E00435907 /* Controller */,
+				547BEFA529E51B8600435907 /* Utils */,
+				547BEF8F29E5030D00435907 /* AppDelegate.swift */,
+				547BEF9129E5030D00435907 /* SceneDelegate.swift */,
+				547BEF9829E5030E00435907 /* Assets.xcassets */,
+				547BEF9A29E5030E00435907 /* LaunchScreen.storyboard */,
+				547BEF9D29E5030E00435907 /* Info.plist */,
+				547BEFA329E506D900435907 /* GoogleService-Info.plist */,
 			);
 			path = InstaPicture;
+			sourceTree = "<group>";
+		};
+		547BEFA529E51B8600435907 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				547BEFA629E51BA800435907 /* StringUtilities.swift */,
+				547BEFA829E51C4B00435907 /* KeychainService.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		547BEFAA29E51D4E00435907 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				547BEF9329E5030D00435907 /* ViewController.swift */,
+				547BEFAD29E5240700435907 /* HomeViewController.swift */,
+				547BEFAF29E5253F00435907 /* AddPictureViewController.swift */,
+				547BEFB129E5262600435907 /* ProfileViewController.swift */,
+				547BEFB329E5265100435907 /* SearchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		547BEFAB29E51FB000435907 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		547BEFAC29E51FC400435907 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				547BEF9529E5030D00435907 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58425A70E17904345A76A6E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92098E2A612E5244A98BAF57 /* Pods_InstaPicture.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC55623A2447F985AD8BD7E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5135DA26CC706B086432EFF /* Pods-InstaPicture.debug.xcconfig */,
+				27407FA110582CC78A79A19C /* Pods-InstaPicture.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		547BEF6929E4B52D00435907 /* InstaPicture */ = {
+		547BEF8B29E5030D00435907 /* InstaPicture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 547BEF7E29E4B52F00435907 /* Build configuration list for PBXNativeTarget "InstaPicture" */;
+			buildConfigurationList = 547BEFA029E5030E00435907 /* Build configuration list for PBXNativeTarget "InstaPicture" */;
 			buildPhases = (
-				547BEF6629E4B52D00435907 /* Sources */,
-				547BEF6729E4B52D00435907 /* Frameworks */,
-				547BEF6829E4B52D00435907 /* Resources */,
+				E765D435E6EA4BCED36417B2 /* [CP] Check Pods Manifest.lock */,
+				547BEF8829E5030D00435907 /* Sources */,
+				547BEF8929E5030D00435907 /* Frameworks */,
+				547BEF8A29E5030D00435907 /* Resources */,
+				232BCFC548EC81D3E56E6DBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,25 +163,25 @@
 			);
 			name = InstaPicture;
 			productName = InstaPicture;
-			productReference = 547BEF6A29E4B52E00435907 /* InstaPicture.app */;
+			productReference = 547BEF8C29E5030D00435907 /* InstaPicture.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		547BEF6229E4B52D00435907 /* Project object */ = {
+		547BEF8429E5030D00435907 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					547BEF6929E4B52D00435907 = {
+					547BEF8B29E5030D00435907 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 547BEF6529E4B52D00435907 /* Build configuration list for PBXProject "InstaPicture" */;
+			buildConfigurationList = 547BEF8729E5030D00435907 /* Build configuration list for PBXProject "InstaPicture" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +189,104 @@
 				en,
 				Base,
 			);
-			mainGroup = 547BEF6129E4B52D00435907;
-			productRefGroup = 547BEF6B29E4B52E00435907 /* Products */;
+			mainGroup = 547BEF8329E5030D00435907;
+			productRefGroup = 547BEF8D29E5030D00435907 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				547BEF6929E4B52D00435907 /* InstaPicture */,
+				547BEF8B29E5030D00435907 /* InstaPicture */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		547BEF6829E4B52D00435907 /* Resources */ = {
+		547BEF8A29E5030D00435907 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				547BEF7A29E4B52F00435907 /* LaunchScreen.storyboard in Resources */,
-				547BEF7729E4B52F00435907 /* Assets.xcassets in Resources */,
-				547BEF7529E4B52E00435907 /* Main.storyboard in Resources */,
+				547BEF9C29E5030E00435907 /* LaunchScreen.storyboard in Resources */,
+				547BEFA429E506DC00435907 /* GoogleService-Info.plist in Resources */,
+				547BEF9929E5030E00435907 /* Assets.xcassets in Resources */,
+				547BEF9729E5030D00435907 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		232BCFC548EC81D3E56E6DBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaPicture/Pods-InstaPicture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaPicture/Pods-InstaPicture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaPicture/Pods-InstaPicture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E765D435E6EA4BCED36417B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaPicture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		547BEF6629E4B52D00435907 /* Sources */ = {
+		547BEF8829E5030D00435907 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				547BEF7229E4B52E00435907 /* ViewController.swift in Sources */,
-				547BEF6E29E4B52E00435907 /* AppDelegate.swift in Sources */,
-				547BEF7029E4B52E00435907 /* SceneDelegate.swift in Sources */,
+				547BEF9429E5030D00435907 /* ViewController.swift in Sources */,
+				547BEFB029E5253F00435907 /* AddPictureViewController.swift in Sources */,
+				547BEF9029E5030D00435907 /* AppDelegate.swift in Sources */,
+				547BEFB429E5265100435907 /* SearchViewController.swift in Sources */,
+				547BEF9229E5030D00435907 /* SceneDelegate.swift in Sources */,
+				547BEFA929E51C4B00435907 /* KeychainService.swift in Sources */,
+				547BEFA729E51BA800435907 /* StringUtilities.swift in Sources */,
+				547BEFB229E5262600435907 /* ProfileViewController.swift in Sources */,
+				547BEFAE29E5240700435907 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		547BEF7329E4B52E00435907 /* Main.storyboard */ = {
+		547BEF9529E5030D00435907 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				547BEF7429E4B52E00435907 /* Base */,
+				547BEF9629E5030D00435907 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		547BEF7829E4B52F00435907 /* LaunchScreen.storyboard */ = {
+		547BEF9A29E5030E00435907 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				547BEF7929E4B52F00435907 /* Base */,
+				547BEF9B29E5030E00435907 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +294,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		547BEF7C29E4B52F00435907 /* Debug */ = {
+		547BEF9E29E5030E00435907 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +354,7 @@
 			};
 			name = Debug;
 		};
-		547BEF7D29E4B52F00435907 /* Release */ = {
+		547BEF9F29E5030E00435907 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,8 +408,9 @@
 			};
 			name = Release;
 		};
-		547BEF7F29E4B52F00435907 /* Debug */ = {
+		547BEFA129E5030E00435907 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5135DA26CC706B086432EFF /* Pods-InstaPicture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -307,8 +436,9 @@
 			};
 			name = Debug;
 		};
-		547BEF8029E4B52F00435907 /* Release */ = {
+		547BEFA229E5030E00435907 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27407FA110582CC78A79A19C /* Pods-InstaPicture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -337,25 +467,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		547BEF6529E4B52D00435907 /* Build configuration list for PBXProject "InstaPicture" */ = {
+		547BEF8729E5030D00435907 /* Build configuration list for PBXProject "InstaPicture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				547BEF7C29E4B52F00435907 /* Debug */,
-				547BEF7D29E4B52F00435907 /* Release */,
+				547BEF9E29E5030E00435907 /* Debug */,
+				547BEF9F29E5030E00435907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		547BEF7E29E4B52F00435907 /* Build configuration list for PBXNativeTarget "InstaPicture" */ = {
+		547BEFA029E5030E00435907 /* Build configuration list for PBXNativeTarget "InstaPicture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				547BEF7F29E4B52F00435907 /* Debug */,
-				547BEF8029E4B52F00435907 /* Release */,
+				547BEFA129E5030E00435907 /* Debug */,
+				547BEFA229E5030E00435907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 547BEF6229E4B52D00435907 /* Project object */;
+	rootObject = 547BEF8429E5030D00435907 /* Project object */;
 }
